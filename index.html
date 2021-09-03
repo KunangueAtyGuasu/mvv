@@ -51,7 +51,7 @@
 
 <script>
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR2azkxbzAya3ozM3M1bXI0NjlvN3MifQ.6eCKCRWWM9ED5dBtxx_56w';
+    mapboxgl.accessToken = 'pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ';
 
     var map = new mapboxgl.Map({
         container: 'map',
@@ -76,13 +76,13 @@
     map.on('load', () => {
         map.addSource('category_circle', {
             type: 'geojson',
-            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw85b51tu027qjrip88ysv/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR2azkxbzAya3ozM3M1bXI0NjlvN3MifQ.6eCKCRWWM9ED5dBtxx_56w',
+            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw85b51tu027qjrip88ysv/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ',
             generateId: true
         });
 
         map.addSource('municipality_density', {
             type: 'geojson',
-            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw8hn51t1o20s4bzxl6gro/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR2azkxbzAya3ozM3M1bXI0NjlvN3MifQ.6eCKCRWWM9ED5dBtxx_56w',
+            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw8hn51t1o20s4bzxl6gro/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ',
             generateId: true,
             attribution: 'Basemap data from <a href="https://www.ibge.gov.br/en/home-eng.html">Instituto Brasileiro de Geografia e Estatística</a>'
         });
@@ -294,7 +294,7 @@
 
             map.addSource('report_point', {
                 type: 'geojson',
-                data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw8vnj1tc626o0ov1d95t7/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR2azkxbzAya3ozM3M1bXI0NjlvN3MifQ.6eCKCRWWM9ED5dBtxx_56w'
+                data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw8vnj1tc626o0ov1d95t7/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ'
             });
 
             map.addLayer({
