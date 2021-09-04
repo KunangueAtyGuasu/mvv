@@ -51,7 +51,7 @@
 
 <script>
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ';
+    mapboxgl.accessToken = 'pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR5ZTA4ZTAzYm0zM3M1eTRqNGxhaXAifQ.H_DGmzCo0bsm_Owo0t05RA';
 
     var map = new mapboxgl.Map({
         container: 'map',
@@ -76,13 +76,13 @@
     map.on('load', () => {
         map.addSource('category_circle', {
             type: 'geojson',
-            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw85b51tu027qjrip88ysv/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ',
+            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw85b51tu027qjrip88ysv/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR5ZTA4ZTAzYm0zM3M1eTRqNGxhaXAifQ.H_DGmzCo0bsm_Owo0t05RA',
             generateId: true
         });
 
         map.addSource('municipality_density', {
             type: 'geojson',
-            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw8hn51t1o20s4bzxl6gro/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ',
+            data: 'https://api.mapbox.com/datasets/v1/uclmal/cksvw8hn51t1o20s4bzxl6gro/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR5ZTA4ZTAzYm0zM3M1eTRqNGxhaXAifQ.H_DGmzCo0bsm_Owo0t05RA',
             generateId: true,
             attribution: 'Basemap data from <a href="https://www.ibge.gov.br/en/home-eng.html">Instituto Brasileiro de Geografia e Estatística</a>'
         });
@@ -294,7 +294,7 @@
 
             map.addSource('report_point', {
                 type: 'geojson',
-                data: 'https://api.mapbox.com/datasets/v1/uclmal/ckt5vj8fa0ke42dny6djwo6je/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ'
+                data: 'https://api.mapbox.com/datasets/v1/uclmal/ckt5vj8fa0ke42dny6djwo6je/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR5ZTA4ZTAzYm0zM3M1eTRqNGxhaXAifQ.H_DGmzCo0bsm_Owo0t05RA'
             });
 
             map.addLayer({
@@ -315,7 +315,7 @@
 
             map.addSource('report_point_grey', {
                 type: 'geojson',
-                data: 'https://api.mapbox.com/datasets/v1/uclmal/ckt5viyv40w7z21pxfqo1mn7u/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrczRjeDdvcDJtY3cyd3M3ZDE2N2dxdnYifQ.abnRmulcY5B6-xFJBqzklQ'
+                data: 'https://api.mapbox.com/datasets/v1/uclmal/ckt5viyv40w7z21pxfqo1mn7u/features?access_token=pk.eyJ1IjoidWNsbWFsIiwiYSI6ImNrdDR5ZTA4ZTAzYm0zM3M1eTRqNGxhaXAifQ.H_DGmzCo0bsm_Owo0t05RA'
             });
 
             map.addLayer({
